@@ -1,0 +1,428 @@
+body{
+    background-image: url("../images/dark-wood.jpg");
+}
+.wrapper{
+    width: 890px;
+    height: 1386px;
+    background-color: white;
+    margin: 0px auto;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.header{
+    width: 890px;
+    font-family: 黑体;
+    font-size: 12px;
+    position: relative;
+}
+.header_block{
+    width: 110px;
+    height: 61px;
+    background-color:rgba(255, 96, 92, 0.98);
+    float: left;
+}
+.header_p1{
+    color: #ffffff;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.header_p2{
+    color: #d45d5c;
+    float: right;
+    margin:0px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.header_line{
+    width: 892px;
+    height:2px;
+    background-color: #938e8c;
+    /*margin: 0px;*/
+    margin-top: 63px;
+    clear: both;
+}
+/*表头完成*/
+.first_page{
+    margin-top:34px;
+    /*display: inline;*/
+}
+/*图片部分开始*/
+.first_photo{
+    position: relative;
+    width: 641px;
+}
+.first_photo img{
+    width:640px;
+    height:300px;
+    border: 1px solid #eee;
+    float: left;
+}
+.first_photo1{
+    width: 191px;
+    height: 301px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: green;
+    opacity: 0.3;
+}
+.first_photo2{
+    width: 191px;
+    height: 301px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+    opacity: 0.3;
+}
+/*图片部分结束*/
+/*第一部分文章开始*/
+.first_title{
+    width: 203px;
+    /*background-color: #b3d4fc;*/
+    float: right;
+    /*font-size: 50%;!*字体记得改回100%*!*/
+    margin: 0px;
+}
+.page_line{
+    width: 203px;
+    height: 2px;
+    background-color: #cc8091;
+}
+.first_title h2{
+    font-size: 20px;/*数据更改*/
+    font-family: "微软雅黑 Light";
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0px;
+    line-height: 30px;/*数据更改*/
+}
+.first_title h2:first-letter{
+    font-size:130% ;
+}
+.first_p1{
+    font-size: 12px;
+    font-family: 楷体;
+    color: #676767;
+    margin: 0px;
+    line-height: 10px;
+}
+.first_p1:first-letter{
+    text-transform: uppercase;
+}
+.first_p2{
+    font-size: 116px;
+    font-family: 微软雅黑;
+    color: #75b86b;
+    font-style: oblique;
+    margin: 0px;
+    text-indent: -15px;/*700总是超过盒子宽度，使用缩进*/
+}
+.first_p3,.first_p4,.first_p5{
+    font-family: 微软雅黑;
+    color: #cc8091;
+    margin: 0px;
+}
+.first_p3,.first_p4_p5{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.first_p3{
+    font-size: 55px;
+}
+.first_p4_p5{
+    margin-bottom: 12px;
+}
+.first_p4{
+    font-size: 21px;
+    float: left;
+}
+.first_p5{
+    font-size: 12px;
+    float: left;
+    clear: left;
+}
+/*第一部分文章结束*/
+/*第二部分文章开始*/
+.second_page{
+    width: 641px;
+    /*position: relative;*/
+}
+.second_page h2{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.second_page p{
+    font-family: 宋体;
+    font-size: 12px;
+}
+.second_page_1,.second_page_2,.second_page_3{
+    width: 200px;
+    float: left;
+    /*display: inline;为什么不要用display转换成内联*/
+    margin-right: 10px;
+}
+.second_page_1 h2{
+    color: #418c59;
+}
+.second_page_2 h2{
+    color: #d2994f;
+}
+.second_page_1 h2{
+    color: #cc7680;
+}
+.second_page_3_1 p{
+    margin: 0px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #cd4a48;
+    /*line-height: 16px;*/
+    opacity: 0.7;
+    font-style: oblique;
+}
+.second_page_3 span{
+    font-style: normal;
+    color: #231815;
+}
+/*第二部分文章完成*/
+/*第三部分文章开始*/
+.thirdly_page{
+    /*margin-top: 20px;*/
+    /*background-color: #b3d4fc;*/
+    float: left;
+    width: 890px;
+}
+.thirdly_13{
+    float: left;
+}
+.thirdly_24{
+    float: right;
+}
+.thirdly_2
+.thirdly_1{
+    width: 415px;
+    font-family: 黑体;
+    /*float: left;*/
+    /*margin-right: 5px;*/
+    /*margin-bottom: 5px;*/
+}
+.thirdly_1 h1{
+    font-size: 72px;
+    color: #f5e327;
+    font-style: italic;
+    display: inline;
+    text-transform: uppercase;
+}
+.thirdly_1 h2{
+    font-size: 42px;
+    color: #11456b;
+    display: inline;
+    text-transform: uppercase;
+    line-height: 0.5em;
+}
+.thirdly_1 p{
+    font-size: 33px;
+    font-weight: bold;
+    color: #11456b;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.thirdly_1_line{
+    width: 415px;
+    height: 2px;
+    background-color: #11456b;
+}
+.thirdly_2{
+    width: 458px;
+    height: 275px;
+    position: relative;
+}
+.thirdly_2 img{
+    width: 458px;
+    height: 275px;
+}
+.thirdly_block{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 458px;
+    height: 61px;
+    background-color: black;
+    opacity: 0.3;
+}
+.thirdly_photo{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 458px;
+    height: 61px;
+}
+.thirdly_2_line{
+    width: 3px;
+    height: 44px;
+    background-color:#72b16a;
+    float: left;
+    margin-left: 30px;
+    margin-top: 8px;
+    /*display: inline;*/
+}
+.thirdly_photo h2{
+    font-family: 微软雅黑;
+    font-size: 26px;
+    color: #ffffff;
+    display: inline;
+    margin-left: 20px;
+    line-height: 2.5em;
+}
+.thirdly_photo p{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color: #72b12a;
+    font-style: italic;
+    display: inline;
+}
+.thirdly_3{
+    width: 415px;
+    position: relative;
+}
+.thirdly_3 h2{
+    font-size: 70px;
+    font-family: 微软雅黑;
+    color: #f5e327;
+    margin: 0px;
+    float: left;
+    margin-right: 20px;
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
+}
+.thirdly_3 p{
+    font-family: 宋体;
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+}
+.thirdly_3 img{
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.thirdly_4{
+    width: 459px;
+    height: 318px;
+    background-color:#eeedd6;
+    margin-top: 20px;
+    position: relative;
+}
+.thirdly_4 ul{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.thirdly_4 li{
+    font-family: 宋体;
+    font-size: 16px;
+    color: #5a5b5b;
+    margin-bottom: 20px;
+}
+.thirdly_4_block{
+    width: 260px;
+    height: 160px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: #d45d5c;
+    color: #ffffff;
+}
+/*.thirdly_4_block_1,.thirdly_4_block_line,.thirdly_4_block_2{*/
+    /*float: left;*/
+/*}*/
+.thirdly_4_line{
+     width: 2px;
+     height: 86px;
+     background-color:#ffffff;
+     position: absolute;
+     left: 80px;
+     bottom: 40px;
+     /*display: inline;*/
+ }
+.thirdly_4_block_2{
+    position: absolute;
+    left: 90px;
+    bottom: 40px;
+}
+.thirdly_4_block h1{
+    font-family: 微软雅黑;
+    font-size: 110px;
+    display: inline;
+}
+.thirdly_4_block h2{
+    font-family: 黑体;
+    font-size: 21px;
+    font-style: italic;
+    margin-bottom: 12px;
+    display: inline;
+    text-transform: uppercase;
+}
+.thirdly_4_block p{
+    font-family: 黑体;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.thirdly_4_hello{
+    width: 199px;
+    height: 160px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.thirdly_4_hello{
+    font-family: 黑体;
+    font-size: 14px;
+    text-indent: 4.5em;/*双逗号脱离了文本流，会遮盖文字，缩进到右边*/
+    color: #5a5b5b;
+    font-style: italic;
+    line-height: 16px;
+    /*display: inline;*/
+}
+.hello_1{
+    font-family: 黑体;
+    font-size: 72px;
+    color: #d45d5c;
+    position: absolute;
+    bottom: 120px;
+    right: 150px;
+    /*margin: 0px;*/
+}
+.hello_2{
+    font-family: 黑体;
+    font-size: 72px;
+    color: #d45d5c;
+    position: absolute;
+    bottom: 45px;
+    right: 0px;
+    /*margin: 0px;*/
+}
+.footer{
+    margin-top: 20px;
+    width: 892px;
+    height: 20px;
+    border-top: 1px solid #938e8c;
+    float: left;
+}.footer_p1{
+    font-family: 黑体;
+    font-size: 12px;
+    color: #d45d5c;
+    float: right;
+    margin: 0px;
+ }
+ 学习体会：内部小块尽量用position；position会脱离文本流；文本自带宽度；
+
+

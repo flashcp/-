@@ -1,3 +1,11 @@
+/*0、学习体会：内部小块尽量用position；position会脱离文本流；文本自带宽度；*/
+/*1、开始要设置全局margin和padding否则body就会有边框*/
+/*2、文本也能设置边框无需加div*/
+/*3、p文本里可以加span属性，这样可以不改变原有文本的情况下修改span里的内容*/
+*{
+    margin: 0px;
+    padding: 0px;
+}/*新添加*/
 body{
     background-image: url("../images/dark-wood.jpg");
 }
@@ -200,11 +208,12 @@ body{
 }
 .thirdly_13{
     float: left;
+    width: 415px;
 }
 .thirdly_24{
     float: right;
+    width: 458px;
 }
-.thirdly_2
 .thirdly_1{
     width: 415px;
     font-family: 黑体;
@@ -298,9 +307,6 @@ body{
     margin: 0px;
     float: left;
     margin-right: 20px;
-    /*position: absolute;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
 }
 .thirdly_3 p{
     font-family: 宋体;
@@ -341,9 +347,6 @@ body{
     background-color: #d45d5c;
     color: #ffffff;
 }
-/*.thirdly_4_block_1,.thirdly_4_block_line,.thirdly_4_block_2{*/
-    /*float: left;*/
-/*}*/
 .thirdly_4_line{
      width: 2px;
      height: 86px;
@@ -351,7 +354,6 @@ body{
      position: absolute;
      left: 80px;
      bottom: 40px;
-     /*display: inline;*/
  }
 .thirdly_4_block_2{
     position: absolute;
@@ -423,6 +425,6 @@ body{
     float: right;
     margin: 0px;
  }
- 学习体会：内部小块尽量用position；position会脱离文本流；文本自带宽度；
+
 
 

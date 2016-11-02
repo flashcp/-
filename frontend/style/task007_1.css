@@ -17,7 +17,7 @@ body{
 }
 .header-icon-new{
     position: absolute;
-    top: 8px;
+    top: 5px;
     left: 50px;
 }
 .header-icon-landing{
@@ -29,13 +29,13 @@ body{
     font-size: 24px;
     display: inline;
     float: left;
-    margin-top: 15px;
     margin-left: 100px;
+    line-height: 56px;
 }
 .header ul{
     float: right;
-    margin-top: 17px;
     margin-right: 20px;
+    line-height: 56px;
 }
 .header li{
     font-size: 16px;

@@ -1,0 +1,813 @@
+*{
+    margin: 0px;
+    /*padding: 0px;*//*如果定义了padding，那么嵌套ul无法进行缩进*/
+}
+.wrapper{
+    width: 100%;
+    min-width: 1280px;
+}
+/*表头开始*/
+header{
+    width: 100%;
+    height: 56px;
+    min-width: 1280px;
+    background-color: #228abf;
+}
+.inner{
+    width: 1280px;
+    /*background-color: #b3d4fc;*/
+    height: 56px;
+    margin: 0px auto;
+    background-image: url("../images/task009/logo.png");
+    background-repeat: no-repeat;
+    background-position: 50px 3px;
+}
+.inner p{
+    font-family: 黑体;
+    font-size: 12px;
+    color: white;
+    line-height: 56px;
+    margin-right: 20px;
+    padding-left: 20px;
+    float: right;
+    background-image: url("../images/task009/landing.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.inner input{
+    width: 310px;
+    height: 30px;
+    border-radius: 15px;
+    background-image: url("../images/task009/glass.png");
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+    margin: 13px 20px 13px auto;
+    float: right;
+    border-style: none;
+    outline: none;/*点击输入框会出现高亮的边框，此属性可以去除*/
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+/*表头结束*/
+/*内容左侧开始*/
+.container{
+    width: 1280px;
+    margin: 0px auto;
+}
+
+
+#list{
+    width: 260px;
+    height: 1166px;
+    float: left;
+    background-color: #2b2e3d;
+}
+.list-he{
+    width: 260px;
+    height: 150px;
+    position: relative;
+}
+.abc .cir{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 20px 0px 0px 45px;
+    border: 1px solid white;
+    float: left;
+}
+.abc .sm-cir{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #b9babe;
+    margin: 5px 5px;
+}
+.abc>p{
+    font-family: 黑体;
+    font-size: 16px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 40px;
+    color: #f6f5f5;
+}
+.abc{
+    width: 260px;
+    height: 100px;
+}
+.colloct{
+    width: 120px;
+    height: 33px;
+    float: left;
+    border-right: 1px solid #313545;
+    box-sizing: border-box;
+}
+.fans{
+    width: 140px;
+    height: 33px;
+    float: left;
+    border-left: 1px solid #313545;
+    box-sizing: border-box;
+}
+.colloct p:nth-of-type(1),.fans p:nth-of-type(1){
+    font-family: 黑体;
+    font-size: 16px;
+    color: #6e8095;
+}
+.colloct p:nth-of-type(2),.fans p:nth-of-type(2){
+    font-family: 宋体;
+    font-size: 12px;
+    color: #6e8095;
+}
+.colloct p:nth-of-type(1),.colloct p:nth-of-type(2){
+    text-align: right;
+    margin-right: 30px;
+}
+.fans p:nth-of-type(1),.fans p:nth-of-type(2){
+    margin-left: 30px;
+}
+
+/*这部分代码过于复杂，查看别人代码来精简这部分*/
+.list-mi{
+    width: 260px;
+    height: 190px;
+    background-color: #383d4e;
+    padding-top: 15px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.list-mi ul{
+    padding-left: 20px;
+}
+.list-mi li{
+    font-family: 黑体;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.li-1>li:nth-of-type(1){
+    list-style-image: url("../images/task009/report.png");
+    color: #ededf0;
+}
+.li-2>li:nth-of-type(1){
+    list-style-image: url("../images/task009/ri-triangle.png");
+    color: #6e8095;
+    background-image: url("../images/task009/file.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.li-2>li:nth-of-type(2){
+    list-style-image: url("../images/task009/bo-triangle.png");
+    color: #ededf0;
+    background-image: url("../images/task009/file-1.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.li-3>li:nth-of-type(1){
+    list-style-image: url("../images/task009/document-1.png");
+    color: #ededf0;
+    margin-top: 10px;
+
+}
+.li-3>li:nth-of-type(2){
+    list-style-image: url("../images/task009/document.png");
+    color: #6e8095;
+
+}
+.li-2>li:nth-of-type(3){
+    list-style-image: url("../images/task009/ri-triangle.png");
+    color: #6e8095;
+    background-image: url("../images/task009/file.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+/*左侧中间部分已经完成*/
+
+
+.list-bo{
+    width: 260px;
+    padding-top: 15px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.list-bo ul{
+    padding-left: 20px;
+}
+.list-bo li{
+    font-family: 黑体;
+    font-size: 12px;
+    color: #6e8095;
+    margin-bottom: 35px;
+}
+.list-bo ul li:nth-of-type(1){
+    list-style-image: url("../images/task009/star.png");
+}
+.list-bo ul li:nth-of-type(2){
+    list-style-image: url("../images/task009/share.png");
+}
+.list-bo ul li:nth-of-type(3){
+    list-style-image: url("../images/task009/star.png");
+}
+.list-bo ul li:nth-of-type(4){
+    list-style-image: url("../images/task009/star.png")
+}
+.list-bo ul li:nth-of-type(5){
+    list-style-image: url("../images/task009/account.png");
+}
+
+/*list底部完成*/
+/*list全部完成*/
+/*content开始*/
+
+#content{
+    width: 1020px;
+    height: 1166px;
+    background-color: #eeeeed;
+    float: left;
+}
+.con-header{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+.con-header p{
+    font-family: 黑体;
+    font-size: 12px;
+    color: #6e8095;
+    line-height: 30px;
+    margin-left: 30px;
+}
+.con-header p span{
+    margin: 0px 12px;
+}
+
+
+.row:before,.row:after{
+    clear: both;
+    display: block;
+    content: '.';
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+[class*='col-']{
+    border: none;
+    background-color: white;
+    box-sizing: border-box;
+    float: left;
+    box-shadow: 0px 0px 3px #777777;
+}
+.con-figure-1{
+     padding: 15px 65px 0px 60px;
+     box-sizing: border-box;
+ }
+.col-12{
+    width: calc(100% - 5px);
+    height: 86px;
+    margin: 5px 5px 5px 0px;
+}
+.col-0-4{
+    width: calc(100%/12*0.4 - 5px);
+    height: 64px;
+    margin: 5px 5px 0px 0px;
+
+}
+.col-1-6{
+    width: calc(100%/12*1.6 - 5px );
+    height: 64px;
+    margin: 5px 5px 0px 0px;
+    border-top: 4px solid white;
+}
+
+.con-figure-2{
+    padding: 0px 40px 0px 60px;
+    box-sizing: border-box;
+}
+.col-3{
+    width: calc(100%/4 - 30px);
+    height: 70px;
+    margin: 40px 30px 5px 0px;
+}
+
+
+.con-figure-3{
+    padding: 0px 60px 0px 60px;
+    box-sizing: border-box;
+}
+.col-7-146{
+    width: calc(100%/12*7.146 - 10px);
+    height: 355px;
+    margin: 10px 10px 0px 0px ;
+    border-radius: 10px;
+}
+.col-4-853{
+    width: calc(100%/12*4.853 - 10px);
+    height: 355px;
+    margin: 10px 10px 0px 0px;
+    border-radius: 10px;
+}
+
+
+.col-12{
+    padding: 16px 0px 0px 26px;
+    font-family: 黑体;
+    font-size: 12px;
+    color: #aaaaaa;
+}
+[class*='input-']{
+    height: 54px;
+    /*display: inline-block;*/
+    float: left;
+}
+.input-1{
+    width: 126px;
+}
+.input-1 select{
+    width: 70px;
+    height: 25px;
+    margin-left: 13px;
+    padding-left: 5px;
+}
+.input-2{
+    width: 192px;
+    margin-left: 36px;
+    margin-right: 30px;
+    background-image: url(../images/task009/change.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.input-2 label{
+    display: block;
+    margin-bottom: 4px;
+}
+.input-2 select{
+    width: 120px;
+    height: 25px;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+.input-3{
+    width: 305px;
+}
+/*.input-3 label{*/
+    /*margin-bottom: 4px;*/
+/*}*/
+.input-3 label:nth-of-type(1) input{
+    width: 120px;
+    height: 25px;
+    margin-left: 15px;
+    margin-bottom: 4px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.input-3 label:nth-of-type(2) select{
+    width: 70px;
+    height: 25px;
+    margin-left: 15px;
+    margin-bottom: 4px;
+    padding-left: 5px;
+}
+.input-3 label:nth-of-type(3) select{
+     width: 70px;
+     height: 25px;
+     margin-left: 15px;
+     padding-left: 5px;
+ }
+.input-3 label:nth-of-type(4) select{
+    width: 120px;
+    height: 25px;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+.input-4 input{
+    width: 50px;
+    height: 25px;
+    border-radius: 2px;
+    background-color: #388ac1;
+    font-family: 黑体;
+    font-size: 12px;
+    color: white;
+    border-style: none;
+    outline: none;/*按的时候不会出现边框*/
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+
+.col-0-4:nth-child(1){
+    background-image: url("../images/task009/la-ri-triangle.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.col-0-4:nth-child(8){
+    background-image: url("../images/task009/la-le-triangle.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*弄清除type和child选择器的不同*/
+/*.col-0-4:nth-of-type(1){*/
+    /*background-image: url("../images/task009/la-ri-triangle.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+/*}*/
+/*.col-0-4:nth-of-type(8){*/
+    /*background-image: url("../images/task009/la-le-triangle.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+/*}*/
+[class*='col-1-6'] p{
+    text-align: center;
+    line-height: 32px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color: #323333;
+}
+[class*='col-1-6'] p span{
+    font-family: 微软雅黑;
+    font-size: 21px;
+    color: #ec6500;
+}
+[class*='col-1-6'] p .yen{
+    font-size: 16px;
+    color: #aeaeae;
+}
+.col-1-6:nth-child(9){
+    background-image: url("../images/task009/date.png");
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+.col-1-6:nth-child(9) p{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color: #535353;
+    line-height: 64px;
+    margin-left: 60px;
+}
+.col-1-6:nth-child(2){
+    border-top: 4px solid #4388c9;
+}
+.col-1-6:hover{
+    border-top: 4px solid #4388c9;
+}
+
+
+.col-3 p:nth-child(2){
+    font-family: 黑体;
+    font-size: 12px;
+    color: #323333;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.col-3 p:nth-child(3){
+    font-family: 黑体;
+    font-size: 10px;
+    color: #aaaaaa;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.col-3:nth-of-type(1){
+    border-left: 4px solid #43b29d;
+}
+.col-3:nth-of-type(2){
+    border-left: 4px solid #388bc2;
+}
+.col-3:nth-of-type(3){
+    border-left: 4px solid #d04b36;
+}
+.col-3:nth-of-type(4){
+    border-left: 4px solid #e2cd46;
+}
+.col-3 span{
+    width: 60px;
+    height: 50px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+.col-3:nth-of-type(1) span{
+    background-color: #43b29d;
+}
+.col-3:nth-of-type(2) span{
+    background-color: #388bc2;
+}
+.col-3:nth-of-type(3) span{
+    background-color: #d04b36;
+}
+.col-3:nth-of-type(4) span{
+    background-color: #e2cd46;
+}
+
+/*第三块完成*/
+
+.col-7-146{
+    position: relative;
+}
+.row .row-head{
+    height: 40px;
+    background-color: #f3f5f6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.row .row-head p{
+    font-family: 黑体;
+    font-size: 12px;
+    color: #aaaaaa;
+    line-height: 40px;
+    margin-left: 20px;
+    float: left;
+}
+.tab input{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.tab ul li{
+    list-style: none;
+    float: left;
+}
+.tab label{
+    display: block;
+    width: 86px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #ececef;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tab-first{
+    margin-left: 2px;
+}/*为什么tab一直有找不到代码的外边距，还是由于浏览器的默认外边距在起作用，如果开头重置了默认，则会对齐左边框*/
+.tab ul li:nth-of-type(2){
+    margin-left: 4px;
+}
+.tab ul li:nth-of-type(3){
+    margin-left: 4px;
+}
+.tab ul li:nth-of-type(4){
+    margin-left: 4px;
+}
+.tab ul li:nth-of-type(5){
+    margin-left: 4px;
+}
+[class*="chart-"]{
+    display: none;
+}
+[class*="chart-"] table{
+    text-align: center;
+    border-collapse: collapse;/*此属性可以将相邻的单元格边框合并成一条边框*/
+}
+[class*="chart-"] table td{
+    border: 1px solid #d0d0d1;
+    width: 100px;
+    height: 28px;
+}
+[class*="chart-"] table tr:first-child td:first-child{
+    background-color: #ededf0;
+}
+[id^="pro-"]:checked~[class*="chart-"]{
+    display: block;
+    width: 84%;
+    border: 1px solid #d0d0d1;
+    padding: 26px  0px 36px 20px;
+    position: absolute;
+    left: 8%;
+    top: 86px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+[id^="pro-"]:checked~label{
+    border: 1px solid #d0d0d1;
+    border-bottom: none;
+    background-color: #fff;
+    z-index: 1;
+    height: 28px;
+    position: relative;
+}
+
+
+.row-body{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-top: 16px;
+}
+.row-body>p:nth-child(odd){
+    color: #c3c2c2;
+}
+.row-body>p:nth-child(even){
+    color: #535353;
+}
+.row-body-to{
+    color:#c3c2c2 ;
+    width: 280px;
+    height: 23px;
+    border-top: 1px solid #c3c2c2;
+    line-height: 23px;
+}
+.row-body-bo{
+    width: 280px;
+    height: 23px;
+    border-bottom: 1px solid #c3c2c2;
+}
+
+.row-footer{
+    width: 280px;
+    margin-left: 38px;
+    margin-top: 110px;
+    border-top: 1px solid #c3c2c2;
+}
+.row-footer input{
+    margin-top: 10px;
+}
+.row-footer input:nth-of-type(2){
+    width: 50px;
+    height: 25px;
+    background-color: #388ac1;
+    font-family: 黑体;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 105px;
+    border-style: none;
+}
+
+
+
+
+.calendar{
+    list-style-type: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 0px;
+}
+.calendar li{
+    display: inline-block;
+    /*float: left;*/     /* 使用float也能达到效果但外边距无法包围他*/
+}
+.calendar li select,input{
+    font-family: 黑体;
+    font-size: 12px;
+    color: #535353;
+}
+.calendar li:nth-of-type(1) select{
+    width: 64px;
+    height: 22px;
+    margin-right: 6px;
+}
+.calendar li:nth-of-type(2) select{
+    width: 84px;
+    height: 22px;
+    margin-right: 6px;
+}
+.calendar li:nth-of-type(3) select{
+     width: 74px;
+     height: 22px;
+     margin-right: 6px;
+ }
+.calendar li:nth-of-type(4) input{
+    width: 73px;
+    height: 22px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.calendar-table{
+    padding: 10px 20px 0px 20px;
+}
+.calendar-table table{
+    width: 100%;
+    border-spacing: 0;/*清除表格的间距*/
+    /*border-collapse: collapse;*/
+}
+.calendar-table table td {
+    width: 45px;
+    text-align: center;
+    font-family: 黑体;
+    font-size: 11px;
+    color: #535353;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.calendar-table table .day td{
+    height: 45px;
+}
+.calendar-table table p{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.calendar-table table td p:hover{
+    border: 2px solid #f5c62b;
+}
+.calendar-table table .weekend,.festival span{
+    color: #c9161d;
+}
+.calendar-table table .weekend span{
+    color: #535353;
+}
+.calendar-table .mark p{
+    border: 2px solid #f5c62b;
+    border-radius: 50%;
+}
+.calendar-table table .week td{
+    border-top: 1px solid #a9cfec;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 8px 0px;
+}
+
+
+
+.rank{
+    padding: 20px 40px 0px 40px;
+}
+.rank table{
+    width: 100%;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+.rank tr td:nth-of-type(1),
+.rank tr td:nth-of-type(2),
+.rank tr td:nth-of-type(3){
+    height: 22px;
+    border: 1px solid black;
+}
+
+.rank tr td:nth-of-type(1){
+    width: 68px;
+    text-align: center;
+}
+.rank tr td:nth-of-type(2){
+    width: 90px;
+    text-align: center;
+}
+.rank tr td:nth-of-type(3){
+     width: 287px;
+    padding-left: 30px;
+    box-sizing: border-box;
+ }
+.rank tr:hover{
+    background-color: #f4f5f6;
+}
+
+.rank tr td .ba-bar{
+    width: 168px;
+    height: 4px;
+    background-color: #dddcdd;
+    float: right;
+    margin-top: 7px;
+    margin-right: 18px;
+}
+.rank tr td .ot-bar-1{
+    width: 150px;
+    height: 4px;
+    background-color: #ed6e52;
+}
+.rank tr td .ot-bar-2{
+    width: 140px;
+    height: 4px;
+    background-color: #ef8150;
+}
+.rank tr td .ot-bar-3{
+    width: 130px;
+    height: 4px;
+    background-color: #f19e4f;
+}
+.rank tr td .ot-bar-4{
+    width: 120px;
+    height: 4px;
+    background-color: #7fcbf0;
+}
+.rank tr td .ot-bar-5{
+    width: 110px;
+    height: 4px;
+    background-color: #7fcbf0;
+}
+.rank tr td .ot-bar-6{
+    width: 100px;
+    height: 4px;
+    background-color: #7fcbf0;
+}
+.rank tr td .ot-bar-7{
+    width: 90px;
+    height: 4px;
+    background-color: #7fcbf0;
+}
+.rank tr td .ot-bar-8{
+    width: 80px;
+    height: 4px;
+    background-color: #7fcbf0;
+}
+.rank tr td .ot-bar-9{
+    width: 70px;
+    height: 4px;
+    background-color: #7fcbf0;
+}
+.rank tr td .ot-bar-10{
+    width: 60px;
+    height: 4px;
+    background-color: #7fcbf0;
+}
+
+

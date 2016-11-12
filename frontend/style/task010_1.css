@@ -1,0 +1,44 @@
+/*总结：*/
+/*1、order可以定义负值*/
+
+
+.container{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+[class*="flex-"]{
+    width: 150px;
+    border: 1px solid #f00;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    /*display: inline-flex;*/
+}
+.flex-one{
+    height: 120px;
+}
+.flex-two{
+    height: 100px;
+}
+.flex-three{
+    height: 40px;
+}
+.flex-four{
+    height: 200px;
+    border-color: #0f0;
+}
+
+@media(max-width: 640px){
+    .container{
+        align-items: flex-start;
+    }
+    .flex-one,.flex-two,.flex-three{
+        order: 1;
+    }
+}

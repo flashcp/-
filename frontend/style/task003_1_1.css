@@ -1,0 +1,72 @@
+body{
+    font-family:微软雅黑;
+    font-size: 80%;
+    color: black;
+    padding: 20px;
+}
+.page{
+    border: 1px solid #999;
+    background-color: #eee;
+    margin: 0px auto;
+    position: relative;
+    min-width: 600px;
+    /*overflow: auto;*/
+
+}
+/*.over-flow{*/
+/*overflow: auto;*/
+/*}*/
+.team-member:after{
+    clear: both;
+    content:'.';
+    display: block;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+
+
+.team{
+    border: 1px solid #999;
+    width: 160px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 20px;
+    background-color:moccasin;
+}
+.team-logo{
+    float: left;
+}
+.team-name{
+    text-align: center;
+}
+.team-member{
+    width: 120px;
+    border: 1px solid #999;
+    float: right;
+    background-color: moccasin;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.logo{
+    display: block;
+    border: 1px solid #999;
+    margin: 20px;
+}
+.page1{
+    border: 1px solid #999;
+    margin-left: 240px;
+    margin-right: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: moccasin;
+    padding: 20px;
+
+}

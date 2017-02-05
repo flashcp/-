@@ -52,6 +52,7 @@ body{
     /*移除inline-block默认间距*/
     font-size: 0px;
     z-index: 20;
+    display: none;
 }
 /*图标字体 start*/
 #wrapper .skill-icon{

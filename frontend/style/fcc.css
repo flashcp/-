@@ -71,6 +71,7 @@ body{
 
 /*技能背景 start*/
 .skills-background{
+    display: none;
 }
 .bg1, .bg2, .bg3 {
     position: fixed;

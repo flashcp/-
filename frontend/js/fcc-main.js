@@ -19,8 +19,8 @@ $(function () {
     console.log(mems[1]);
 
     $(window).on('scroll', function () {
-        if($(window).scrollTop()>2700&&$(window).scrollTop()<3200){
-            var n=($(window).scrollTop()-2700)*0.002;
+        if($(window).scrollTop()>2700&&$(window).scrollTop()<3600){
+            var n=($(window).scrollTop()-2700)*0.0011;
             $('.bg-part:even').css('opacity',n);
         }
 
@@ -54,7 +54,7 @@ $(function () {
     //end
 
     //nav导航栏跳转 start
-    var position=[0,1000,2100,3200,4700],timer,currentposition,position_i;
+    var position=[0,1000,2100,3600,5100],timer,currentposition,position_i;
     function nav(){
         //设置函数调用间距为1ms
         timer=setInterval(togo,1);

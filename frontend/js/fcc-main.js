@@ -56,6 +56,8 @@ $(function () {
     //nav导航栏跳转 start
     var position=[0,1000,2100,3600,5100],timer,currentposition,position_i;
     function nav(){
+        //如果用户在滚动条滚动时点击
+        clearInterval(timer);
         //设置函数调用间距为1ms
         timer=setInterval(togo,1);
         //获取点击a标签的序号

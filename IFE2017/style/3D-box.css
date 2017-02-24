@@ -2,10 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-.wrapper{
-    width: 100%;
+body{
     background-color: #72b16a;
-    height: 700px;
+}
+.wrapper{
 }
 .container{
     width: 400px;

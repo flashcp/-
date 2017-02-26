@@ -14,7 +14,7 @@ body{
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    /*visibility: hidden;*/
+    backface-visibility:hidden;
     perspective: 1600px;
     position: absolute;
     top: 50%;

@@ -8,45 +8,31 @@
 <script src="js/vue.js"></script>
 <script>
     function Observer(data){
-        this.data1=data;
-        console.log(this.data1,2);
-        this.cli(data);
+        this.data=data;
+        console.log(this.data,2);
+        this.convert(data);
     }
     let p = Observer.prototype;
-    p.cli= function (data2) {
+    
+    p.convert=function(data){
         let val;
-        for (let key in data2){
-            val = data2[key];
-            this.convert(key, val);
+        for (let key in data){
+            val = data[key];
+            Object.defineProperty(this.data, key, {
+                enumerable: true,
+                configurable: true,
+                get: function () {
+                    console.log('你访问了' + key);
+                    return val
+                },
+                set: function (newVal) {
+                    console.log('你设置了' + key);
+                    console.log('新的' + key + ' = ' + newVal)
+                    if (newVal === val) return;
+                    val = newVal
+                }
+            })
         }
-    }
-//    p.cli=function (obj){
-//        let val;
-//        for (let key in obj) {
-//            if (obj.hasOwnProperty(key)) {
-//                val = obj[key];
-//                if (typeof val === 'object') {
-//                    new Observer(val);
-//                }
-//                this.convert(key, val);
-//            }
-//        }
-//    }
-    p.convert=function(key, val){
-        Object.defineProperty(this.data1, key, {
-            enumerable: true,
-            configurable: true,
-            get: function () {
-                console.log('你访问了' + key);
-                return val
-            },
-            set: function (newVal) {
-                console.log('你设置了' + key);
-                console.log('新的' + key + ' = ' + newVal)
-                if (newVal === val) return;
-                val = newVal
-            }
-        })
     }
     let app1 = new Observer({
         name: 'youngwind',
